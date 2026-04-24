@@ -7,6 +7,7 @@ public class AgenteConversacional {
 
     public void setModelo(InteligenciaArtificialStrategy nuevoModelo) {
 
+
         this.modelo = nuevoModelo;
 
         System.out.println("Cambiando cerebro a: " + nuevoModelo.getNombreModelo());
